@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.springboot.entity.Student;
 import com.springboot.repository.StudentRepository;
 
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+@SpringBootApplication
 public class StudentManagementSystemApplication  implements CommandLineRunner{
 
 	public static void main(String[] args) {
